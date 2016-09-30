@@ -2,7 +2,7 @@
 
 ## [designedbysage.ca](www.designedbysage.ca)
 
-Ottawa-based designer with a passion for unique typography, eye-catching layouts and harmonious design solutions.
+Hi! I love creating layouts so harmonious and interesting that you're eyes will literally pop out of your head. Whether it's creating print or web design solutions, I command and conquer all thing typographical. 
 
 - **[sage@designedbysage.ca](mailto:sage@designedbysage.ca)**
 - [Behance](https://www.behance.net/sagehartly)
