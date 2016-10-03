@@ -20,9 +20,35 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Arvo', serif;
+  font-weight: normal;
 }
+
 main {
   background-color: #f5edde;
+}
+
+nav {
+  background-color: #fff;
+}
+
+section {
+  margin: 0 5em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.title {
+  width: 80%;
+  padding: 0.2em 0.2em 0.2em 0.5em;
 }
 
 footer {
