@@ -25,6 +25,37 @@ main {
   background-color: #f5edde;
 }
 
+footer {
+  background-color: #f7c241;
+  text-align: center;
+  padding: 1em 2em;
+}
+
 .social {
   width: 25%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .social {
+    width: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .social {
+    width: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .social {
+    width: 8%;
+    max-width: 5em;
+  }
+
 }
