@@ -20,8 +20,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Arvo', serif;
-  font-weight: normal;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
 }
 
 main {
@@ -29,20 +29,23 @@ main {
 }
 
 nav {
+  text-align: center;
   background-color: #fff;
-}
-
-section {
-  margin: 0 5em;
 }
 
 a {
   text-decoration: none;
   color: #000;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+a:hover {
+  color: #f7c241;
 }
 
 .nav-link {
-  vertical-align: middle;
+  padding-top: auto;
   text-align: center;
 }
 
@@ -82,6 +85,55 @@ footer {
   .social {
     width: 8%;
     max-width: 5em;
+  }
+
+}
+
+/*-----------------------ABOUT.HTML---------------------*/
+
+.about-text {
+  position: relative;
+  text-align: center;
+  margin: 0 2em;
+}
+
+.about-main {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.glasses {
+  width: 30%;
+}
+
+.email {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .glasses {
+    width: 25%;
+  }
+
+  .email {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .glasses {
+    width: 20%;
+    max-width: 10em;
+  }
+
+  .email {
+    width: 40%;
+    max-width: 30em;
   }
 
 }
