@@ -20,6 +20,9 @@ html {
 
 body {
   margin: 0;
+}
+
+body, h1, h2 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
 }
@@ -37,7 +40,6 @@ a {
   text-decoration: none;
   color: #000;
   text-align: center;
-  font-size: 1.25em;
 }
 
 a:hover {
@@ -45,8 +47,7 @@ a:hover {
 }
 
 .nav-link {
-  padding-top: auto;
-  text-align: center;
+  padding-top: 0.5rem;
 }
 
 .title {
@@ -58,6 +59,10 @@ footer {
   background-color: #f7c241;
   text-align: center;
   padding: 1em 2em;
+}
+
+svg:hover {
+  fill: #f5edde;
 }
 
 .social {
@@ -135,5 +140,22 @@ footer {
     width: 40%;
     max-width: 30em;
   }
+
+}
+
+/*----------------------- ITEM PAGES ---------------------*/
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.page {
+  max-width: 70em;
+}
+
+@media only screen and (min-width: 60em) {
+
+
 
 }
