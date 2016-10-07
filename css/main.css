@@ -22,9 +22,9 @@ body {
   margin: 0;
 }
 
-body, h1, h2 {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 300;
+body, a, h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
 main {
@@ -32,27 +32,22 @@ main {
 }
 
 nav {
-  text-align: center;
   background-color: #fff;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #000;
-  text-align: center;
+  display: inline-block;
 }
 
 a:hover {
   color: #f7c241;
 }
 
-.nav-link {
-  padding-top: 0.5rem;
-}
-
 .title {
   width: 80%;
-  padding: 0.2em 0.2em 0.2em 0.5em;
+  max-width: 30em;
 }
 
 footer {
@@ -61,7 +56,7 @@ footer {
   padding: 1em 2em;
 }
 
-svg:hover {
+.icon:hover {
   fill: #f5edde;
 }
 
@@ -99,29 +94,22 @@ svg:hover {
 .about-text {
   position: relative;
   text-align: center;
-  margin: 0 2em;
 }
 
 .about-main {
-  padding: 2em 0;
-  text-align: center;
+  text-align: left;
 }
 
 .glasses {
-  width: 30%;
+  width: 100%;
 }
 
 .email {
   width: 90%;
   display: block;
-  margin: auto;
 }
 
 @media only screen and (min-width: 25em) {
-
-  .glasses {
-    width: 25%;
-  }
 
   .email {
     width: 50%;
@@ -130,11 +118,6 @@ svg:hover {
 }
 
 @media only screen and (min-width: 60em) {
-
-  .glasses {
-    width: 20%;
-    max-width: 10em;
-  }
 
   .email {
     width: 40%;
@@ -152,10 +135,4 @@ svg:hover {
 
 .page {
   max-width: 70em;
-}
-
-@media only screen and (min-width: 60em) {
-
-
-
 }
