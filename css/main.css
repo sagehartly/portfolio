@@ -28,26 +28,52 @@ main {
   background-color: #f5edde;
 }
 
+/*-----------------------NAV---------------------*/
+
 nav {
   background-color: #fff;
-  text-align: center;
-  padding: 3em 0 1em 0;
 }
 
 nav a {
   text-decoration: none;
   color: #000;
-  font-weight: 200;
+  font-weight: 300;
+  padding: 0;
+  list-style-type: none;
 }
 
-a:hover {
+nav a:hover {
   color: #f7c241;
+}
+
+.nav li {
+  display: inline-block;
 }
 
 .title {
   width: 80%;
   max-width: 30em;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
+
+/*-----------------------HOME PAGE---------------------*/
+
+.portfolio {
+  padding: 3em;
+}
+
+/*-----------------------FOOTER---------------------*/
 
 footer {
   background-color: #f7c241;
@@ -86,32 +112,38 @@ footer {
     max-width: 5em;
   }
 
+  .portfolio {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .portfolio {
+    padding-left: 24em;
+    padding-right: 24em;
+  }
+
 }
 
 /*-----------------------ABOUT.HTML---------------------*/
 
 .about-text {
-  position: relative;
   text-align: center;
 }
 
-.about-main {
-  text-align: left;
-}
-
-.glasses {
-  width: 100%;
-}
-
 .email {
-  width: 90%;
+  width: 80%;
   display: block;
+  margin: auto;
 }
 
 @media only screen and (min-width: 25em) {
 
   .email {
-    width: 50%;
+    width: 60%;
   }
 
 }
@@ -119,7 +151,7 @@ footer {
 @media only screen and (min-width: 60em) {
 
   .email {
-    width: 40%;
+    width: 50%;
     max-width: 30em;
   }
 
@@ -130,6 +162,11 @@ footer {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.item-page {
+  padding-left: 10%;
+  padding-right: 3em;
 }
 
 h1 {
