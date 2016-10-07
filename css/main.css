@@ -19,12 +19,9 @@ html {
 }
 
 body {
-  margin: 0;
-}
-
-body, a, h1, h2 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
+  margin: 0;
 }
 
 main {
@@ -33,12 +30,14 @@ main {
 
 nav {
   background-color: #fff;
+  text-align: center;
+  padding: 3em 0 1em 0;
 }
 
 nav a {
   text-decoration: none;
   color: #000;
-  display: inline-block;
+  font-weight: 200;
 }
 
 a:hover {
@@ -72,7 +71,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 39em) {
 
   .social {
     width: 10%;
@@ -133,6 +132,14 @@ footer {
   width: 100%;
 }
 
-.page {
-  max-width: 70em;
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+hr {
+  color: #f7c241;
 }
